@@ -11,6 +11,7 @@ import java.nio.charset.Charset;
  *
  * @author <a href="mailto:norman.maurer@gmail.com">Norman Maurer</a>
  */
+@SuppressWarnings({"unused", "all"})
 public class PlainOioServer {
     public void serve(int port) throws IOException {
         //将服务器绑定到指定端口
